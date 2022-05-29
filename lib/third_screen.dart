@@ -17,6 +17,7 @@ class _ThirdScreen extends State<ThirdScreen> {
         appBar: AppBar(title: Text(widget.title)),
         body: Center(
             child: GestureDetector(
+          key: const Key('third'),
           onTap: () {
             Navigator.pushAndRemoveUntil(
                 context,

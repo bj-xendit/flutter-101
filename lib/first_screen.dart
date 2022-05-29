@@ -18,6 +18,7 @@ class _FirstScreenState extends State<FirstScreen> {
         appBar: AppBar(title: Text(widget.title)),
         body: Center(
             child: GestureDetector(
+          key: const Key('first'),
           child: const Text(
             'Hello!',
             style: TextStyle(fontSize: 28),

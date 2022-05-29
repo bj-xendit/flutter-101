@@ -18,6 +18,7 @@ class _SecondScreenState extends State<SecondScreen> {
       appBar: AppBar(title: Text(widget.title)),
       body: Center(
           child: GestureDetector(
+        key: const Key('second'),
         child: const Text(
           'Hola!',
           style: TextStyle(fontSize: 32),
